@@ -3,7 +3,7 @@ import time
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
+TOKEN = '6015532028:AAGKjTTUbEa4gYJBPok3RPg3jITAIVUBj4Y'
 
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please send a message to me")
